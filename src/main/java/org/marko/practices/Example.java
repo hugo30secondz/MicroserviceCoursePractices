@@ -12,7 +12,7 @@ public class Example {
 		person.setLastName("");
 		person.setName("");
 	}
-	
+	//tester
 	@Getter
 	@Setter
 	public static class Person{
