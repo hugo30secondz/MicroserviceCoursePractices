@@ -5,7 +5,7 @@ import java.util.List;
 public class PolimorfismExample {
 	
 	public static void main(String[] args) {
-		List<Operation> list=List.of(new Multiplication(), new Substraction());
+		List<Operation> list=List.of(new Multiplication(), new Substraction(), new Addition());
 		list.stream().map(a->a.apply(3, 2)).forEach(System.out::println);
 	}
 
